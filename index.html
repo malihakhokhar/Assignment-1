@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Html Page</title>
+</head>
+<body>
+    <!-- Heading of the page -->
+    <h1>Welcome to My Website</h1>
+
+    <!-- Paragraph -->
+    <p>This is a paragraph of text. It is just an example to demonstrate the usage of paragraph tags in HTML.</p>
+
+    <!-- Image -->
+    <img src="./istockphoto-1129473522-170667a.webp" width="200" height="200" alt="A beautiful image">
+    
+    <!-- Link of amazon -->
+    <div>
+        <a href="https://www.amazon.com" target="_blank">amazon</a>
+    </div>
+    
+    <!-- Unordered List -->
+    <h3>Fruits Name</h3>
+    <ul style="list-style: circle;">
+        <li>orange</li>
+        <li>mango</li>
+        <li>banana</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h3>Color Name</h3>
+    <ol style="list-style: lower-roman;">
+        <li>Red</li>
+        <li>Blue</li>
+        <li>Pink</li>
+    </ol>
+
+    <!-- Table -->
+    <caption> <b>Student Data</b> </caption>
+    <table border="1" cellspacing="3" cellpadding="10">
+        <!-- Row of the table -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll_No</th>
+                <th>Section</th>
+            </tr>
+        </thead>
+        <!-- Data of the Table -->
+        <tbody>
+            <tr>
+                <td>Maliha</td>
+                <td>122</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Aliza</td>
+                <td>158</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+        
+    </table>
+    <br>
+    <h4>Login Form</h4>
+            <!-- Form for login -->
+    <form action="submit.php" method="post">
+                    <!-- Name -->
+        <div style="padding: 4px;">
+            
+            <label for="username">Your Name:</label>
+            <input type="text" name="username" placeholder="Enter your username">
+        </div>
+                    <!-- Password -->
+        <div>
+            <label for="Password">Your Password:</label>
+            <input type="Password" name="Password"placeholder="Enter your Password">
+        </div>
+                    <!-- Submit -->
+        <div>
+            <input type="submit" value="submit" name="submit">
+            <!-- <input type="reset" value="reset" name="reset"> -->
+        </div>
+        
+    </form>
+</body>
+</html>
